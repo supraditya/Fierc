@@ -1,0 +1,19 @@
+.main
+{
+    text-align: center;
+    border: solid !important;
+    background-color: #484848 !important;
+
+}
+.list
+{
+    display: table;
+    margin: 0 auto;
+}
+nav
+{
+    background-color: #484848 !important;
+    -webkit-box-shadow: none !important;
+	-moz-box-shadow: none;
+	box-shadow: none;    
+}
