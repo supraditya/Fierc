@@ -1,9 +1,9 @@
 import React from 'react';
+import CameraTile from './CameraTile'
 const Home=()=>{
     return(
         <div className="container">
-            <h4>Home Tab</h4>
-            <p>Ea ullamco deserunt enim velit cupidatat ea laborum aliquip proident.</p>
+            <CameraTile/>
         </div>
     )
 }

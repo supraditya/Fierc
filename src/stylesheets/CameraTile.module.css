@@ -1,0 +1,24 @@
+.tileButton
+{
+    transition: all 0.3s;
+    background-color: #479B1F;
+    border-style: none;
+    border-radius: 50px;
+    width: 270px;
+    height: 270px;
+    font-size: 48px;
+    color: #FFF;
+    box-shadow: #484848;
+}
+button:hover
+{
+    border: solid;
+    border-color: #FAFF0E;
+    transition: all 0.3s;
+    height: 275px !important;
+    width: 275px !important;
+}
+p
+{
+    font-size: 22px;
+}
