@@ -6,7 +6,7 @@
 }
 .list a
 {
-    font-size: 2.2em !important;
+    font-size: 2.1em !important;
     text-decoration: none;
     color: #FFF;
     width: 33%;
@@ -23,7 +23,7 @@
     border-radius: 50px;
     border-color: #FFF;
     border-style: solid;
-    margin-left: 7%;
+    margin-left: 7.5%;
     margin-right: 10%;
     margin-bottom: 4%;
 }

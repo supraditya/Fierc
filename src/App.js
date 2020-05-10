@@ -9,7 +9,10 @@ function App() {
   return (
     <BrowserRouter>
       <div className="App">
-        <p className="Site-title">FIERC</p>
+        <div className="head-container">
+          <p className="site-title">FIERC</p>
+          <p className="site-username">username</p>
+        </div>
         <Navbar/>
         <Route exact path='/' component={Home}/>
         <Route path='/profile' component={Profile}/>
