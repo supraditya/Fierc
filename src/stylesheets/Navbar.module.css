@@ -1,3 +1,11 @@
+@media only screen and (max-width: 810px) 
+{
+    .navWrapper
+    {
+        display: none;
+    }
+
+}
 .list li { 
     display:inline-block;
     width:33%;

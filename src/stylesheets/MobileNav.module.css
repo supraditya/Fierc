@@ -1,0 +1,49 @@
+@media only screen and (min-width: 500px) 
+{
+    .nav
+    {
+        display: none;
+    }
+    .list
+    {
+        display:none;
+        display: flex;
+        flex-direction: row;
+    }
+}
+.list
+{
+    list-style: none;
+}
+.list a
+{
+    text-decoration: none;
+    color: #FFF;
+    /* border: solid; */
+    height: 100%;
+    width: 33%;
+}
+.nav
+{
+    background-color: #F9DC5C;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    height: 12%;
+}
+.list li 
+{ 
+    display:inline-block;
+    width:33%;
+    height: 100%;
+    margin:0;
+    padding:0;
+}
+i
+{
+    height: 100px;
+    width: 100%;
+    font-size: 48px;
+}
