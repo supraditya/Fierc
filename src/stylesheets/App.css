@@ -14,8 +14,8 @@ body
 }
 .container
 {
-    width: 80% !important;
-    height: 80px !important;
+    /* width: 80% !important; */
+    /* height: 80px !important; */
     text-align: center;
 }
 

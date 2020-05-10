@@ -1,25 +1,9 @@
-/* .main
-{
-    text-align: center;
-    border: solid !important;
-    background-color: #484848 !important;
-
-} */
 .list li { 
     display:inline-block;
     width:33%;
     margin:0;
     padding:0;
 }
-/* nav
-{
-    background-color: #484848 !important;
-        -webkit-box-shadow: none !important;
-	-moz-box-shadow: none;
-    box-shadow: none;
-    border: solid;
-    border-radius: 50px;    
-} */
 .list a
 {
     font-size: 2.2em !important;
@@ -39,4 +23,11 @@
     border-radius: 50px;
     border-color: #FFF;
     border-style: solid;
+    margin-left: 7%;
+    margin-right: 10%;
+    margin-bottom: 4%;
+}
+.emergencybutton
+{
+    color: #E54545;
 }

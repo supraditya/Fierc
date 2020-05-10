@@ -8,7 +8,7 @@ const Navbar=()=>{
             <div className={styles.navWrapper}>
                     <li><Link to="/">HOME</Link></li>
                     <li><Link to="/profile">PROFILE</Link></li>
-                    <li><Link to="/emergency">EMERGENCY</Link></li>
+                    <li><Link to="/emergency" style={{color: "#E54545"}}>EMERGENCY</Link></li>
             </div>
             </ul>
         </div>
