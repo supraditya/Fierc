@@ -45,5 +45,11 @@ i
 {
     height: 100px;
     width: 100%;
-    font-size: 48px;
+    color: #484848;
+    opacity: 0.9;
+    margin-top: 15%;
+}
+span
+{
+    font-size:45px;
 }

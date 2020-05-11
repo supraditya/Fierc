@@ -6,9 +6,9 @@ const MobileNav=()=>{
         <div className="container"> 
          <ul className={styles.list}>
             <div className={styles.nav}>
-                    <li><Link to="/"><i class="fa fa-home icon-large"></i></Link></li>
-                    <li><Link to="/profile"><i class="fa fa-user icon-large" ></i></Link></li>
-                    <li><Link to="/emergency"><i class="fa fa-exclamation-triangle icon-large" aria-hidden="true"></i></Link></li>
+                    <li><Link to="/"><span><i class="fa fa-home icon-large"></i></span></Link></li>
+                    <li><Link to="/profile"><span><i class="fa fa-user icon-large" ></i></span></Link></li>
+                    <li><Link to="/emergency"><span><i class="fa fa-exclamation-triangle icon-large" aria-hidden="true"></i></span></Link></li>
             </div>
             </ul>
         </div>
