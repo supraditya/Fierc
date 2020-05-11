@@ -1,11 +1,4 @@
-@media only screen and (max-width: 810px) 
-{
-    .head-container
-    {
-        align-items: flex-start;
-    }
 
-}
 .site-title
 {
     text-align: center;
@@ -15,6 +8,23 @@
     margin-bottom:0.5% !important;
     width: 33%;
     margin: auto;
+    margin-left: 33.55%;
+}
+@media only screen and (max-width: 1250px)
+{
+    .site-title
+    {
+        margin-left: 34%;
+    }
+
+}
+@media only screen and (max-width: 1070px)
+{
+    .site-title
+    {
+        margin-left: 34.2%;
+    }
+
 }
 body
 {
@@ -33,11 +43,13 @@ body
     flex-wrap: nowrap;
     align-items: baseline;
     align-content: center;
-    margin-right: 11.5%;
-    margin-left: 18%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 .site-username
 {
     color: #fff;
+    font-size: 26px;
+    margin-right: 5%;
 }
 

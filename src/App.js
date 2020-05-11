@@ -11,8 +11,8 @@ function App() {
     <BrowserRouter>
       <div className="App">
         <div className="head-container">
-          <p className="site-title">FIERC</p>
-          <p className="site-username">username</p>
+          <div className="site-title">FIERC</div>
+          <div className="site-username">username</div>
         </div>
         <Navbar/>
         <MobileNav/>

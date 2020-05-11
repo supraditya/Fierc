@@ -8,3 +8,6 @@ const CameraTile=()=>{
     )
 }
 export default CameraTile;
+/* Change component to class based, save color values and
+messages as states and use the if-else function to assign them
+to the tiles accordingly */
