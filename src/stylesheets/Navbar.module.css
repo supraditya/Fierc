@@ -8,17 +8,26 @@
 }
 .list li { 
     display:inline-block;
-    width:33%;
+    width:33.33%;
     margin:0;
     padding:0;
+    /* border-radius: 50px; */
 }
 .list a
 {
-    font-size: 2.1em !important;
+    display: inline-block;
+    font-size: 2.1em;
     text-decoration: none;
-    width: 33%;
-    /* border: solid;
-    border-color: #fff; */
+    width: 100%;
+    color: #FFF;
+}
+@media only screen and (max-width: 1100px) 
+{
+    .homespan
+    {
+        font-size: 1.5em;
+    }
+
 }
 
 .navWrapper
@@ -37,10 +46,5 @@
 }
 .home
 {
-    color: #FFF;
     border-radius: 50px;
-}
-.profile
-{
-    color: #fff;
 }

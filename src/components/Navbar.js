@@ -1,45 +1,63 @@
 import React, {Component} from 'react';
 import styles from '../stylesheets/Navbar.module.css';
-import {Link} from 'react-router-dom';
+import {NavLink} from 'react-router-dom';
 class Navbar extends Component{
     hSelect()
     {
         var h=document.querySelector('.home');
+        var ha=document.querySelector('.homespan');
         var p=document.querySelector('.profile');
+        var pa=document.querySelector('.profspan');
         var e=document.querySelector('.emergency');
+        var ea=document.querySelector('.emerspan');
         document.body.style.backgroundColor = "#484848";
-        h.style.color='#484848';
+        h.style.borderRadius='50px 0 0 50px';
+        p.style.borderRadius='0 0 0 0';
+        e.style.borderRadius='0 50px 50px 0';
+        ha.style.color='#484848';
         h.style.backgroundColor="#F9DC5C";
-        p.style.color='#FFF';
+        pa.style.color='#FFF';
         p.style.backgroundColor="#484848";
-        e.style.color='#E54545';
+        ea.style.color='#E54545';
         e.style.backgroundColor="#484848";
     }
     pSelect()
     {
         var h=document.querySelector('.home');
+        var ha=document.querySelector('.homespan');
         var p=document.querySelector('.profile');
+        var pa=document.querySelector('.profspan');
         var e=document.querySelector('.emergency');
+        var ea=document.querySelector('.emerspan');
         document.body.style.backgroundColor = "#484848";
-        p.style.color='#484848';
-        p.style.backgroundColor="#F9DC5C";
-        h.style.color='#FFF';
+        h.style.borderRadius='50px 0 0 50px';
+        p.style.borderRadius='0 0 0 0';
+        e.style.borderRadius='0 50px 50px 0';
+        ha.style.color='#FFF';
         h.style.backgroundColor="#484848";
-        e.style.color='#E54545';
+        pa.style.color='#484848';
+        p.style.backgroundColor="#F9DC5C";
+        ea.style.color='#E54545';
         e.style.backgroundColor="#484848";
     }
     eSelect()
     {
         var h=document.querySelector('.home');
+        var ha=document.querySelector('.homespan');
         var p=document.querySelector('.profile');
+        var pa=document.querySelector('.profspan');
         var e=document.querySelector('.emergency');
-        e.style.color='#484848';
-        e.style.backgroundColor="#E54545";
-        document.body.style.backgroundColor = "#E54545"; 
-        p.style.color='#FFF';
-        p.style.backgroundColor="#484848";
-        h.style.color='#FFF';
+        var ea=document.querySelector('.emerspan');
+        document.body.style.backgroundColor = "#E54545";
+        h.style.borderRadius='50px 0 0 50px';
+        p.style.borderRadius='0 0 0 0';
+        e.style.borderRadius='0 50px 50px 0';
+        ha.style.color='#FFF';
         h.style.backgroundColor="#484848";
+        pa.style.color='#FFF';
+        p.style.backgroundColor="#484848";
+        ea.style.color='#484848';
+        e.style.backgroundColor="#E54545";   
     }
     render()
     {
@@ -47,9 +65,9 @@ class Navbar extends Component{
             <div className="container"> 
              <ul className={styles.list}>
                 <div className={styles.navWrapper}>
-                        <li className="home"><Link to="/" onClick={this.hSelect}>HOME</Link></li>
-                        <li className="profile"><Link to="/profile" onClick={this.pSelect}>PROFILE</Link></li>
-                        <li className="emergency"><Link to="/emergency" onClick={this.eSelect} style={{color: "#E54545"}}>EMERGENCY</Link></li>
+                        <li className="home"><NavLink to="/" onClick={this.hSelect}><span className="homespan">HOME</span></NavLink></li>
+                        <li className="profile"><NavLink to="/profile" onClick={this.pSelect}><span className="profspan">PROFILE</span></NavLink></li>
+                        <li className="emergency"><NavLink to="/emergency" onClick={this.eSelect} style={{color: "#E54545"}}><span className="emerspan">EMERGENCY</span></NavLink></li>
                 </div>
                 </ul>
             </div>
