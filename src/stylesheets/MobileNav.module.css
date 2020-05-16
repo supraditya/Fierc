@@ -1,4 +1,4 @@
-@media only screen and (min-width: 500px) 
+@media only screen and (min-width: 810px) 
 {
     .nav
     {
@@ -47,7 +47,8 @@ i
     width: 100%;
     color: #484848;
     opacity: 0.9;
-    margin-top: 15%;
+    margin-top:10%;
+    margin-bottom: auto;
 }
 i:active
 {
@@ -56,4 +57,15 @@ i:active
 span
 {
     font-size:45px;
+}
+@media only screen and (max-width: 400px) 
+{
+    span
+    {
+        font-size: 35px;
+    }
+    .nav
+    {
+        height: 11%;
+    }
 }

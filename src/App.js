@@ -14,6 +14,10 @@ function App() {
           <div className="site-title">FIERC</div>
           <div className="site-username">username</div>
         </div>
+        <div className="mobile-head-container">
+          <div className="mobile-site-title">FIERC</div>
+          <div className="mobile-site-username">username</div>
+        </div>
         <Navbar/>
         <MobileNav/>
         <Route exact path='/' component={Home}/>
