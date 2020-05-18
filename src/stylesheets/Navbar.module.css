@@ -1,4 +1,17 @@
-@media only screen and (max-width: 810px) 
+/* Navbar is using span styling from mobilenav, which is
+why you are unable to set a breakpoint for it. You need to
+figure out a way to address it using classname in mobilenav or 
+just display none the main navbar at around 1100px */
+
+@media only screen and (max-width: 840px) 
+{
+    .navWrapper
+    {
+        font-size: 0.7em;
+    }
+
+}
+@media only screen and (max-width: 640px) 
 {
     .navWrapper
     {
@@ -25,9 +38,8 @@
 {
     .homespan
     {
-        font-size: 1.5em;
+        font-size: 1.5em !important;
     }
-
 }
 
 .navWrapper
