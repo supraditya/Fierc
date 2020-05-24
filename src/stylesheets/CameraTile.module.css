@@ -8,7 +8,7 @@
     height: 270px;
     font-size: 48px;
     color: #FFF;
-    box-shadow: #484848;
+    margin: 2% 2% 2% 2%;
 }
 button:hover
 {
@@ -17,6 +17,46 @@ button:hover
     transition: all 0.3s;
     height: 275px !important;
     width: 275px !important;
+}
+@media only screen and (max-width: 400px)
+{
+    .tileButton
+    {
+        width: 240px;
+        height: 240px;
+        margin: 4%;
+    }
+    button:hover
+    {
+        height: 245px;
+        width: 245px;
+    }
+}
+@media only screen and (min-width: 1345px)
+{
+    .tileButton
+    {
+        width: 300px;
+        height: 300px;
+    }
+    button:hover
+    {
+        height: 305px;
+        width: 305px;
+    }
+}
+@media only screen and (min-width: 1492px)
+{
+    .tileButton
+    {
+        width: 330px;
+        height: 330px;
+    }
+    button:hover
+    {
+        height: 335px;
+        width: 335px;
+    }
 }
 p
 {

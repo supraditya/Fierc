@@ -1,9 +1,9 @@
 import React from 'react';
 import styles from '../stylesheets/CameraTile.module.css';
-const CameraTile=()=>{
+const CameraTile=(props)=>{
     return(
         <div className="tile">
-            <button className={styles.tileButton}>Camera 1<p>Placeholder text</p></button>
+            <button className={styles.tileButton}>Camera {props.number}<p>{props.text}</p></button>
         </div>
     )
 }
