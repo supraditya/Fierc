@@ -1,10 +1,14 @@
 import React from 'react';
 import styles from '../stylesheets/CameraTile.module.css';
+import styled from 'styled-components';
+const StyledDiv=styled.div`
+    right: 10%;
+`;
 const CameraTile=(props)=>{
     return(
-        <div className="tile">
+        <StyledDiv>
             <button className={styles.tileButton}>Camera {props.number}<p>{props.text}</p></button>
-        </div>
+        </StyledDiv>
     )
 }
 export default CameraTile;

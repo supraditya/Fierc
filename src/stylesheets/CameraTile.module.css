@@ -15,8 +15,8 @@ button:hover
     border: solid;
     border-color: #FAFF0E;
     transition: all 0.3s;
-    height: 275px !important;
-    width: 275px !important;
+    /* height: 275px !important;
+    width: 275px !important; */
 }
 @media only screen and (max-width: 400px)
 {
@@ -24,40 +24,25 @@ button:hover
     {
         width: 240px;
         height: 240px;
-        margin: 4%;
-    }
-    button:hover
-    {
-        height: 245px;
-        width: 245px;
+        margin: 2%;
     }
 }
-@media only screen and (min-width: 1345px)
+/* @media only screen and (min-width: 1300px)
 {
     .tileButton
     {
         width: 300px;
         height: 300px;
     }
-    button:hover
-    {
-        height: 305px;
-        width: 305px;
-    }
 }
-@media only screen and (min-width: 1492px)
+@media only screen and (min-width: 1440px)
 {
     .tileButton
     {
         width: 330px;
         height: 330px;
     }
-    button:hover
-    {
-        height: 335px;
-        width: 335px;
-    }
-}
+} */
 p
 {
     font-size: 22px;
