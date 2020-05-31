@@ -9,6 +9,7 @@
     width: 33%;
     margin: auto;
     margin-left: 33.55%;
+    /* border: solid 1px white; */
 }
 @media only screen and (max-width: 1250px)
 {
@@ -45,8 +46,9 @@ body
     align-content: center;
     margin-left: 10%;
     margin-right: 10%;
+    /* border: solid 1px white; */
 }
-@media only screen and (max-width: 530px)
+@media only screen and (max-width: 640px)
 {
     .head-container
     {
@@ -59,6 +61,27 @@ body
     color: #fff;
     font-size: 26px;
     margin-right: 5%;
+    /* border: solid 1px white; */
+}
+.signOut
+{
+    font-size: 26px;
+    color: white;
+    margin-right: 5%;
+    /* border: solid 1px white; */
+}
+.userIcon
+{
+    font-size: 26px;
+    color: white;
+    margin-right: 1%;
+}
+.userIcon-mobile
+{
+    font-size: 26px;
+    color: white;
+    margin-right: 3%;
+    /* border: solid 1px white; */
 }
 .mobile-head-container
 {
@@ -74,29 +97,30 @@ body
     display: table-cell;
     color: #fff;
     /* border: solid; */
-    width: 35%;
+    width: 63%;
     font-size: 40px;
     height: 70px;
     line-height: 70px;
-    text-align: center;
+    text-align: left;
+    padding-left: 4%;
 }
 .mobile-site-username
 {
     display: table-cell;
     /* display: none; */
     /* border: solid; */
-    text-align: center;
-    float: right;
-    width: 65%;
-    font-size: 18px;
+    text-align: left;
+    /* float: right; */
+    width: 25%;
+    font-size: 24px;
     color: #fff;
-    margin-right: 2%;
+    margin-right: 8%;
 }
-.mobile-site-username i
+.mobile-site-username
 {
     font-family: Calibri Light;
 }
-@media only screen and (max-width: 400px) 
+@media only screen and (max-width: 640px) 
 {
     .mobile-head-container
     {
@@ -108,7 +132,7 @@ body
         line-height: 60px;
     }
 }
-@media only screen and (min-width: 530px)
+@media only screen and (min-width: 640px)
 {
     .mobile-head-container
     {
