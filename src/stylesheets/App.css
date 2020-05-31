@@ -86,7 +86,7 @@ body
     /* display: none; */
     /* border: solid; */
     text-align: center;
-    /* float: right; */
+    float: right;
     width: 65%;
     font-size: 18px;
     color: #fff;
