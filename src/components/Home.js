@@ -27,14 +27,14 @@ const Home=()=>{
     return(
         <StyledDiv>
             {/* Fetch camera number, text and status from API  */}
-            <CameraTile number='1' text='Everything is fine!' status='green'/>
-            <CameraTile number='2' text='Everything is fine!' status='green'/>
-            <CameraTile number='3' text='Everything is fine!' status='green'/>
-            <CameraTile number='4' text='Everything is fine!' status='green'/>
-            <CameraTile number='5' text='Everything is fine!' status='green'/>
-            <CameraTile number='6' text='Everything is fine!' status='green'/>
-            <CameraTile number='7' text='Everything is fine!' status='green'/>
-            <CameraTile number='8' text='Everything is fine!' status='green'/>
+            <CameraTile number='1' status='green'/>
+            <CameraTile number='2' status='red'/>
+            <CameraTile number='3' status='green'/>
+            <CameraTile number='4' status='green'/>
+            <CameraTile number='5' status='green'/>
+            <CameraTile number='6' status='green'/>
+            <CameraTile number='7' status='green'/>
+            <CameraTile number='8' status='green'/>
         </StyledDiv>
     )
 }

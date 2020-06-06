@@ -13,13 +13,13 @@ function App() {
         <div className="head-container">
           <div className="site-title">FIERC</div>
           <span className="userIcon"><i class="fa fa-user"></i></span>
-          <div className="site-username">username</div>
+          <div className="site-username">supraditya</div>
           <span className="signOut"><i class="fa fa-sign-out"></i></span>
         </div>
         <div className="mobile-head-container">
           <div className="mobile-site-title">FIERC</div>
           <span className="userIcon-mobile"><i class="fa fa-user"></i></span>
-          <div className="mobile-site-username">username</div>
+          <div className="mobile-site-username">supraditya</div>
           <span className="signOut"><i class="fa fa-sign-out"></i></span>
         </div>
         <Navbar/>

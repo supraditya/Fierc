@@ -1,0 +1,17 @@
+.container
+{
+    margin: auto;
+    width: 80%;
+    height: 500px;
+    overflow-y: scroll;
+}
+.messageStyle
+{
+    font-size: 26px;
+    color: #fff;
+    text-align: left;
+}
+ul
+{
+    list-style-type: none;
+}
