@@ -17,29 +17,7 @@ const imgStyle={
 const spanStyle={
     fontSize: '200px'
 }
-const tableStyle={
-    display:'table',
-    width: '81%',
-    border:'solid 2px #F9DC5C',
-    margin: 'auto',
-    color:'white',
-    borderRadius:'50px',
-    padding:'2%'
-}
-const tableRowStyle={
-    display:'table-row'
-}
-const tableCellStyleField={
-    display:'table-cell',
-    width:'50%',
-    fontSize:'32px',
-    textDecoration:'underline'
-}
-const tableCellStyle={
-    display:'table-cell',
-    width:'50%',
-    fontSize:'32px',
-}
+
 class Profile extends Component{
    render()
    {
@@ -49,18 +27,18 @@ class Profile extends Component{
             <p style={imgStyle}><span style={spanStyle}><i class="fa fa-user" aria-hidden="true"></i></span></p>
             </div>
             <br></br>
-            <div style={tableStyle}>
-            <div style={tableRowStyle}>
-                <div style={tableCellStyleField}>NAME</div>
-                <div style={tableCellStyle}>Aditya Sunil Menon</div>
+            <div className={styles.tableStyle}>
+            <div className={styles.tableRowStyle}>
+                <div className={styles.tableCellStyleField}>NAME</div>
+                <div className={styles.tableCellStyle}>Aditya Sunil Menon</div>
             </div>
-            <div style={tableRowStyle}>
-                <div style={tableCellStyleField}>CONTACT</div>
-                <div style={tableCellStyle}>7738014883</div>
+            <div className={styles.tableRowStyle}>
+                <div className={styles.tableCellStyleField}>CONTACT</div>
+                <div className={styles.tableCellStyle}>7738014883</div>
             </div>
-            <div style={tableRowStyle}>
-                <div style={tableCellStyleField}>EMAIL</div>
-                <div style={tableCellStyle}>aditya300100@gmail.com</div>
+            <div className={styles.tableRowStyle}>
+                <div className={styles.tableCellStyleField}>EMAIL</div>
+                <div className={styles.tableCellStyle}>aditya300100@gmail.com</div>
             </div>
             </div>
         </div>
